@@ -11,4 +11,4 @@ Case you find out a mistake in any file, fell free to collaborate.
 
 # Special Problems
 
-- [Segment With the Maximum Sum with Update(Segtree Kadane)]()
+- [Segment with the Maximum Sum with Update(Segtree Kadane)](https://github.com/PauloRobertoPC/Library/blob/master/Special%20Problems/SegKadane.cpp)
