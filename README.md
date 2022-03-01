@@ -4,7 +4,7 @@ Case you find out a mistake in any file, fell free to collaborate.
 
 - Segment Tree
    - [Standard Segtree](https://github.com/PauloRobertoPC/Library/blob/master/Data%20Structures/Segtree.cpp)
-   - [Lazy Segtree]()
+   - [Lazy Segtree](https://github.com/PauloRobertoPC/Library/blob/master/Data%20Structures/SegtreeLazy.cpp)
 
 # Graphs
 
