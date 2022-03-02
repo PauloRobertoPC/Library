@@ -9,9 +9,11 @@ Case you find out a mistake in any file, fell free to collaborate.
 
 # Graphs
 
+#String
+
 # Geometry
 
 # Special Problems
 
 - [Segment with the Maximum Sum with Update(Segtree Kadane)](https://github.com/PauloRobertoPC/Library/blob/master/Special%20Problems/SegKadane.cpp)
-- [Area of union of Rectangles](https://github.com/PauloRobertoPC/Library/blob/master/Special%20Problems/RectangleUnion.cpp)
+- [Area of Union of Rectangles](https://github.com/PauloRobertoPC/Library/blob/master/Special%20Problems/RectangleUnion.cpp)
