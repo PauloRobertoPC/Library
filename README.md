@@ -6,6 +6,8 @@ Case you find out a mistake in any file, fell free to collaborate.
    - [Standard Segtree](https://github.com/PauloRobertoPC/Library/blob/master/Data%20Structures/Segtree.cpp)
    - [Lazy Segtree](https://github.com/PauloRobertoPC/Library/blob/master/Data%20Structures/SegtreeLazy.cpp)
    - [Merge Sort Tree](https://github.com/PauloRobertoPC/Library/blob/master/Data%20Structures/MergeSortTree.cpp)
+   - [Dynamic Segtree](https://github.com/PauloRobertoPC/Library/blob/master/Data%20Structures/DynamicSeg.cpp)
+   - [Dynamic Lazy Segtree](https://github.com/PauloRobertoPC/Library/blob/master/Data%20Structures/DynamicLazySeg.cpp)
 
 # Graphs
 
