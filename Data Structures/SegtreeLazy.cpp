@@ -1,21 +1,22 @@
+//Build O(n)
+//Others O(log n)
+
 struct segtree{
    struct no{
       int val, lazy;
       no(){ val = lazy= 0;}      //Usualy Neutral Element
       no(int v){ val = v; lazy = 0;}
    };
-   int n;
    no neut;
    vector<no> seg, v;
 
    segtree(){}
-   segtree(int nn, vector<no> &vv){n = nn; v = vv; seg.resize(n<<2);}
-   void assign(int nn, vector<no> &vv){n = nn; v = vv; seg.resize(n<<2);}
+   segtree(int n, vector<no> &vv){v = vv; seg.resize(n<<2);}
+   void assign(int n, vector<no> &vv){v = vv; seg.resize(n<<2);}
 
    static no merge(no a, no b){
       no c;
       c.val = a.val+b.val;
-      c.lazy = a.lazy+b.lazy;
       return c;
    }
 
@@ -100,8 +101,3 @@ struct segtree{
       return ans;
    }
 };
-
-//** Don't forget **
-// vector<segtree::no> v; 
-// segtree(n, v) or segtree(), segtree.assign(n, v)
-// segtree.build(1, 0, n-1)
