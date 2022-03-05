@@ -1,6 +1,6 @@
 //** data strucure works with 0-indexed vector and interval **
-//preprocess = build O(n)
-//get O(log n)
+//preprocess = build O(n.log n)
+//get O(1)
 
 struct sparse{
    vector<vector<int>> st; //st[i][j] = max/min(v[i],...,v[i+(2^j)-1])
