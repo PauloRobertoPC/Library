@@ -15,6 +15,8 @@ Case you find out a mistake in any file, fell free to collaborate.
 
 - [LCA(Binary Lifting)](https://github.com/PauloRobertoPC/Library/blob/master/Graph/LCABinaryLift.cpp)
 - [LCA(Sparse Table)](https://github.com/PauloRobertoPC/Library/blob/master/Graph/LCASparseTable.cpp)
+- [HLD - Vertex](https://github.com/PauloRobertoPC/Library/blob/master/Graph/hld_vertex.cpp)
+- [HLD - Edge](https://github.com/PauloRobertoPC/Library/blob/master/Graph/hld_edge.cpp)
 
 # Math
 
