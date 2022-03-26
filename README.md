@@ -19,7 +19,7 @@ Case you find out a mistake in any file, fell free to collaborate.
 # Math
 
 - Number Theory
-   - [Prime Check O(sqrt(n))](https://github.com/PauloRobertoPC/Library/blob/master/Math/isPrime.cpp)
+   - [Primality Test O(sqrt(n))](https://github.com/PauloRobertoPC/Library/blob/master/Math/isPrime.cpp)
    - [Sieve of Eratosthenes](https://github.com/PauloRobertoPC/Library/blob/master/Math/sieve.cpp)
 
 # String
