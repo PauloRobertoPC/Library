@@ -1,4 +1,4 @@
-//Offline solutio for query in subtrees
+//Offline solution for query in subtrees
 //Complexity O(n . logn)
 
 #define maxn int(1e5 + 10) // Maximum number of vertices
