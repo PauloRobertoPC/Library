@@ -1,3 +1,5 @@
+#define maxn int(1e5+10) // Max number of vertices
+
 int sz[maxn], used[maxn];
 int dad[maxn]; //dad[u] = dad of vertex 'u' in Centroid Tree
 vector<int> adj[maxn];
