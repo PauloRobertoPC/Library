@@ -14,7 +14,7 @@ Case you find out a mistake in any file, fell free to collaborate.
 # Graphs
 
 - Minimum Spanning Tree
-    - [Minimun Directed Spanning Tree](https://github.com/PauloRobertoPC/Library/blob/master/Graph/MDST.cpp)
+    - [Minimum Directed Spanning Tree(Arborescence)](https://github.com/PauloRobertoPC/Library/blob/master/Graph/MDST.cpp)
 - [LCA(Binary Lifting)](https://github.com/PauloRobertoPC/Library/blob/master/Graph/LCABinaryLift.cpp)
 - [LCA(Sparse Table)](https://github.com/PauloRobertoPC/Library/blob/master/Graph/LCASparseTable.cpp)
 - Heavy-Light Decomposition
