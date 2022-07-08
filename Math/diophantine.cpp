@@ -1,6 +1,5 @@
 //All the functions below run in O(log n)
 
-
 //{gcd(a, b), x, y} such that a*x + b*y = gcd(a,b)
 tuple<int, int, int> extended_euclides(int a, int b){
     int x = 1, y = 0, x1 = 0, y1 = 1;
