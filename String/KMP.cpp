@@ -1,5 +1,5 @@
 // pi and count_pref: O(|s|)
-// matching and macthinc_conc: O(|s|+|t|)
+// matching and macthing_conc: O(|s|+|t|)
 
 vector<int> pi(string s){
     vector<int> p(s.size());  
