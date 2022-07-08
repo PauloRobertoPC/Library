@@ -32,6 +32,7 @@ Case you find out a mistake in any file, fell free to collaborate.
    - [Extended Euclidean and Linear Diophantine Equations](https://github.com/PauloRobertoPC/Library/blob/master/Math/diophantine.cpp)
 
 # String
+   - [KMP](https://github.com/PauloRobertoPC/Library/blob/master/String/KMP.cpp)
 
 # Geometry
 
