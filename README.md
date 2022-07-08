@@ -29,7 +29,7 @@ Case you find out a mistake in any file, fell free to collaborate.
 - Number Theory
    - [Primality Test O(sqrt(n))](https://github.com/PauloRobertoPC/Library/blob/master/Math/isPrime.cpp)
    - [Sieve of Eratosthenes](https://github.com/PauloRobertoPC/Library/blob/master/Math/sieve.cpp)
-   - [Extended Euclidean and Linear Diophantine Equations](https://github.com/PauloRobertoPC/Library/blob/master/Math/diphantine.cpp)
+   - [Extended Euclidean and Linear Diophantine Equations](https://github.com/PauloRobertoPC/Library/blob/master/Math/diophantine.cpp)
 
 # String
 
