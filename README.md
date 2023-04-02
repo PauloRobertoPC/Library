@@ -40,3 +40,19 @@ Case you find out a mistake in any file, fell free to collaborate.
 
 - [Segment with the Maximum Sum with Update(Segtree Kadane)](https://github.com/PauloRobertoPC/Library/blob/master/Special%20Problems/SegKadane.cpp)
 - [Area of Union of Rectangles](https://github.com/PauloRobertoPC/Library/blob/master/Special%20Problems/RectangleUnion.cpp)
+
+
+# To do
+- Data Structures
+    - [2-3-4 Tree](https://codeforces.com/gym/102222/problem/E)- Fonte: Contest 4, Summer School 2023 E.cpp
+    - [???](https://codeforces.com/gym/104012/problem/M) - Fonte: 2022-2023 ICPC NERC (NEERC), North-Western Russia Regional Contest (Northern Subregionals) M.cpp
+- Graph
+    - [MST + Bridge + DSU](https://codeforces.com/problemset/problem/160/D) - Fonte: Contest 3, Summer School 2023 I.cpp
+- Dynamic Programming
+    - [Do with DP](https://codeforces.com/gym/100971/problem/K) - Fonte: Contest 4, Summer School 2023 F.cpp
+- Greedy
+    - Empty
+- Strings
+    - Empty
+- Math
+    - [Probabilidade](https://codeforces.com/gym/102215/problem/G) - Fonte: Contest 4, Summer School 2023 I.cpp
