@@ -45,6 +45,7 @@ Case you find out a mistake in any file, fell free to collaborate.
 
 # String
 
+- [Aho-Corasick](https://github.com/PauloRobertoPC/Library/blob/master/String/Aho_Corasick.cpp)
 - [KMP](https://github.com/PauloRobertoPC/Library/blob/master/String/KMP.cpp)
 - [Z](https://github.com/PauloRobertoPC/Library/blob/master/String/Z.cpp)
 
