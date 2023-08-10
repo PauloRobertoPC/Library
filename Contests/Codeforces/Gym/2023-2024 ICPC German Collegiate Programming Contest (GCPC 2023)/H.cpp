@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#include <cassert>
 
 using namespace std;
 
@@ -6,8 +7,18 @@ using namespace std;
 
 typedef long long ll;
 
+ll n;
 vector<ll> f = {1, 1, 2};
-map<ll, ll> dp, dad;
+
+ll binpow(ll b, ll e){
+    ll ans = 1;
+    while(e){
+        if(e&1) ans = (ans*b)%mod;
+        b = (b*b)%mod;
+        e >>= 1;
+    }
+    return ans;
+}
 
 void show(vector<ll> &ans){
     vector<vector<char>> a(2, vector<char>());
@@ -26,26 +37,56 @@ void show(vector<ll> &ans){
     for(auto c:a[1]) cout << c; cout << "\n";
 }
 
-ll n;
-bool solve(int i, ll acm, ll sum){
-    // cout << i << " " << acm <<"\n";
-    if(acm==n)
-        return true;
-    if(sum > 200) return false;
-    if(i==f.size())
-        return acm==n;
-    if(acm==n)
-        return true;
-    return solve(i,(acm*f[i])%mod, sum+i+1)  || solve(i+1,acm, sum+i+1);
+std::random_device rd;
+std::mt19937 gen(rd());
+std::uniform_int_distribution<> distr(2, 99);
+
+unordered_map<ll, vector<ll>> val;
+
+vector<ll> generate(ll &m){
+    vector<ll> ans;
+    ll tot = distr(gen);
+    m = 1;
+    while(tot >= 2){
+        std::uniform_int_distribution<> distr(2, tot);
+        ans.emplace_back(distr(gen));
+        m = (m*f[ans.back()])%mod;
+        tot -= ans.back()+1;
+    }
+    return ans;
 }
 
 int main(){
-    for(ll i = 3; i <= 200; i++){
+    ios_base::sync_with_stdio(0); cin.tie(0);
+    for(ll i = 3; i <= 200; i++)
         f.emplace_back((f[i-1]+f[i-2])%mod);
-    }
-    vector<ll> ans;
     cin >> n;
-    cout << solve(2,1, -1) <<"\n";
+    if(n == 0){
+        cout << "##.\n.##\n"; 
+        return 0;
+    }
+    if(n == 1){
+        cout << "#\n#\n"; 
+        return 0;
+    }
+    for(ll i = 0; i < 1000000; i++){
+        ll m = 1;
+        vector<ll> mul = generate(m);
+        val[m] = mul;
+    }
+    for(ll i = 0; i < 1000000; i++){
+        ll m = 1;
+        vector<ll> mul = generate(m);
+        ll auxll = (n*binpow(m, mod-2))%mod;
+        if(val.count(auxll)){
+            vector<ll> aux = val[auxll];
+            for(auto x:mul) aux.emplace_back(x);
+            ll test = 1;
+            for( auto x:aux) test = (test*f[x])%mod;
+            show(aux);
+            return 0;
+        }
+    }
     return 0;
 }
 

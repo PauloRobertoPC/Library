@@ -5,6 +5,8 @@ Case you find out a mistake in any file, fell free to collaborate.
 - DSU 
     - [Standard DSU](https://github.com/PauloRobertoPC/Library/blob/master/Data%20Structures/DSU.cpp)
 
+- [Policy Based Data Structure](https://github.com/PauloRobertoPC/Library/blob/master/Data%20Structures/PolicyBasedDS.cpp)
+
 - [Sparse Table](https://github.com/PauloRobertoPC/Library/blob/master/Data%20Structures/SparseRMQ.cpp)
 
 - Segment Tree
